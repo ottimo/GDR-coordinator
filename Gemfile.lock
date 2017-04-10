@@ -1,0 +1,58 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.2.1)
+    daemons (1.2.4)
+    dotenv (2.2.0)
+    facebook-messenger (0.11.1)
+      httparty (~> 0.13, >= 0.13.7)
+      rack (>= 1.6.4)
+    ffi (1.9.18)
+    hiredis (0.6.1)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    listen (3.1.5)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+      ruby_dep (~> 1.2)
+    multi_xml (0.6.0)
+    nest (3.0.0)
+      redic
+    ngrok (1.6.1)
+      daemons
+      listen
+    ohm (3.1.1)
+      nest (~> 3)
+      redic (~> 1.5.0)
+      stal
+    rack (1.6.5)
+    rack-protection (1.5.3)
+      rack
+    rb-fsevent (0.9.8)
+    rb-inotify (0.9.8)
+      ffi (>= 0.5.0)
+    redic (1.5.0)
+      hiredis
+    ruby_dep (1.5.0)
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    stal (0.3.0)
+      redic (~> 1.5)
+    tilt (2.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  connection_pool
+  dotenv
+  facebook-messenger
+  httparty
+  ngrok
+  ohm
+  sinatra
+
+BUNDLED WITH
+   1.14.6
